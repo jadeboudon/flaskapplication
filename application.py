@@ -5,8 +5,8 @@ import numpy as np
 application = Flask(__name__)
 
 @application.route('/')
-def hello(name):
-    return 'Hello Flask'+'name\n'
+def hello():
+    return 'Hello Jade\n'
     
 @application.route('/random/<n>')
 def randomvalues(n):
